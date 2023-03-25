@@ -30,6 +30,7 @@ public class Recipe {
 
     private Long likes;
 
+    private String content;
     private String contentDestination;
 
     public Long getId() {
@@ -94,5 +95,13 @@ public class Recipe {
 
     public void setContentDestination(String contentDestination) {
         this.contentDestination=contentDestination;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content=content;
     }
 }
